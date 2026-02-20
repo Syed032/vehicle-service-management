@@ -1,0 +1,161 @@
+/* NAVBAR */
+.navbar {
+  background: #24292e;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: #ddd;
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+/* MAIN CONTAINER */
+.container {
+  width: 85%;
+  margin: 30px auto;
+}
+
+/* HEADINGS */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* TABLE */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+table th {
+  background: #f0f0f0;
+  padding: 10px;
+  text-align: left;
+}
+
+table td {
+  padding: 10px;
+  border-top: 1px solid #eee;
+}
+
+/* FORM INPUTS */
+input, select {
+  padding: 8px;
+  width: 280px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056c7;
+}
+
+/* Card container */
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Clean table style */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background: #f5f5f5;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.table tr:hover {
+  background: #fafafa;
+}
+
+
+/* Stylish input fields */
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.form input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+/* Button */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: #4a90e2;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: #3976c3;
+}
+
+
+.form-select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 6px;
+  transition: 0.2s;
+}
+
+.form-select:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
